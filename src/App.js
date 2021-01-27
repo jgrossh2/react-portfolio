@@ -4,6 +4,7 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 // about me is default setting
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -37,7 +38,8 @@ function App() {
             ></Nav>
         </header>
         <main>
-          {/* <About></About> */}
+          <Resume></Resume> 
+          <About></About>
           <ContactForm></ContactForm>
           {!contactSelected ? (
             <>

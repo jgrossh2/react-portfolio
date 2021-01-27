@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import About from '../About'
 
 function Nav(props) {
     const {
@@ -10,8 +11,7 @@ function Nav(props) {
     } = props;
 
     useEffect(() => {
-        document.title = currentCategory.name;
-    }, [currentCategory]);
+        document.title = (currentCategory.name); }, [currentCategory]);
 
     return (
         <header>
@@ -24,7 +24,7 @@ function Nav(props) {
                         <a href='#contact' className='contact' onClick={() => setContactSelected(true)}>Contact</a>
                     </li>
                     {categories.map((category) => (
-                         <li
+                        <li
                          className={`mx-1 ${
                              // if currentCategory.name === category.name is true, and contactSelected is false, then navActive will be returned
                              currentCategory.name === category.name && !contactSelected && 'navActive'
@@ -37,9 +37,10 @@ function Nav(props) {
                                      // gallery is rendered
                                      setContactSelected(false);
                                  }}
-                             >
+                                > 
+                                    <a href={category.name}>{category.name}</a>
                                 </span>
-                                </li>
+                        </li>
                     ))}
                     <li>
                         <a href='#portfolio' className='portfolio'>Portfolio</a>
