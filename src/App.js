@@ -24,10 +24,10 @@ function App() {
 
     return (
       <div>
-      <header>
-        <div className="App">
+        <header>
+          <div className="App">
           <h2>Joanna Grosshans, Web Developer</h2>
-        </div>
+          </div>
             <Nav
             categories={categories}
             setCurrentCategory={setCurrentCategory}
@@ -37,19 +37,27 @@ function App() {
             ></Nav>
         </header>
         <main>
-          <About></About>
+          {/* <About></About> */}
           <ContactForm></ContactForm>
+          {!contactSelected ? (
+            <>
+              <About></About>
+            </>
+          ) : (
+            <ContactForm></ContactForm>
+          )}
         </main>
+
     <footer>
       <div>
-        <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank" rel='noreferrer'
+       <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank" rel='noreferrer'
         >LINKEDIN </a>
       </div>
       <div>
         <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'>GITHUB</a>
-        </div>
+      </div>
     </footer>
-  </div>
+    </div>
   );
 }
 
