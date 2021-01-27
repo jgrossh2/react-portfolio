@@ -1,5 +1,6 @@
 import React from 'react';
-
+// need photo 
+// need short bio
 function About() {
     return (
       <section>

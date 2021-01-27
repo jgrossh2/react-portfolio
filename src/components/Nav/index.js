@@ -4,24 +4,19 @@ function Nav() {
 
     return (
         <header>
-            <h2>
-                portfolio
-            </h2>
             <nav>
                 <ul className="flex-row">
                     <li>
-                        <a href="#about">
-                            About me
-                        </a>
+                        <a href="#about" className='about'>About me</a>
                     </li>
                     <li>
-                        <span>Contact</span>
+                        <a href='#contact' className='contact'>Contact</a>
                     </li>
                     <li>
-                        <span>Projects</span>
+                        <a href='#portfolio' className='portfolio'>Portfolio</a>
                     </li>
                     <li>
-                        <span>Resume</span>
+                        <a href='#resume' className='resume'>Resume</a>
                     </li>
                 </ul>
             </nav>

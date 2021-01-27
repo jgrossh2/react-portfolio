@@ -4,11 +4,15 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
-
+// about me is default setting
 function App() {
   const [categories] = useState([
     {
-      name: 'Projects',
+      name: 'About me',
+      description: 'Find out more about Joanna Grosshans'
+    },
+    {
+      name: 'Portfolio',
       description: 'Projects I have been a contributor for'
     },
     { name: 'Contact', description: 'Contact Me'},
@@ -18,17 +22,31 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
     return (
-    <div className="App">
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        ></Nav>
+      <div>
+      <header>
+        <div className="App">
+          <h2>Joanna Grosshans, Web Developer</h2>
+        </div>
+            <Nav
+            categories={categories}
+            setCurrentCategory={setCurrentCategory}
+            currentCategory={currentCategory}
+            ></Nav>
+        </header>
         <main>
           <About></About>
           <ContactForm></ContactForm>
         </main>
-    </div>
+    <footer>
+      <div>
+        <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank"
+        >LINKEDIN </a>
+      </div>
+      <div>
+        <a href="https://github.com/jgrossh2" target="_blank">GITHUB</a>
+        </div>
+    </footer>
+  </div>
   );
 }
 
