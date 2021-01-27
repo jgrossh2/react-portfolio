@@ -23,16 +23,16 @@ const Portfolio = ({ category })  => {
             category: 'Portfolio',
             description: 'This is an application created to assist with your weekday schedule.'
         },
-        {
-            name: "Santa's Helper",
-            category: 'Portfolio',
-            description: 'This is an application that was created to help with preparing for the holidays.'
-        },
-        {
-            name: "Santa's Helper",
-            category: 'Portfolio',
-            description: 'This is an application that was created to help with preparing for the holidays.'
-        },
+        // {
+        //     name: "Santa's Helper",
+        //     category: 'Portfolio',
+        //     description: 'This is an application that was created to help with preparing for the holidays.'
+        // },
+        // {
+        //     name: "Santa's Helper",
+        //     category: 'Portfolio',
+        //     description: 'This is an application that was created to help with preparing for the holidays.'
+        // },
 
     ]);
 
