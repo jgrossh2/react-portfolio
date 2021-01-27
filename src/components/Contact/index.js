@@ -4,6 +4,12 @@ function ContactForm(props) {
   return (
       <section>
           <h1 data-testid='h1tag'>Contact Me</h1>
+          <div>
+          <a href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
+          </div>
+          <div>
+          <label for="phone">PHONE: #847.347.7356</label>
+          </div>
           <form id='contact-form'>
               <div>
                   <label htmlFor='name'>Name:</label>

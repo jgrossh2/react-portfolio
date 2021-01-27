@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 // about me is default setting
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {
       name: 'About me',
@@ -31,6 +32,8 @@ function App() {
             categories={categories}
             setCurrentCategory={setCurrentCategory}
             currentCategory={currentCategory}
+            contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
             ></Nav>
         </header>
         <main>
