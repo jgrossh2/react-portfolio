@@ -39,11 +39,11 @@ function App() {
         </main>
     <footer>
       <div>
-        <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank"
+        <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank" rel='noreferrer'
         >LINKEDIN </a>
       </div>
       <div>
-        <a href="https://github.com/jgrossh2" target="_blank">GITHUB</a>
+        <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'>GITHUB</a>
         </div>
     </footer>
   </div>
