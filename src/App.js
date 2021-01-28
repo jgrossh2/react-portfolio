@@ -3,6 +3,9 @@ import React, {useState} from 'react';
 import './App.css';
 // import About from './components/About';
 import Nav from './components/Nav';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { LogoGithubIcon } from '@primer/octicons-react';
+
 // import ContactForm from './components/Contact';
 // import Resume from './components/Resume';
 // about me is default setting
@@ -51,13 +54,16 @@ function App() {
           )} */}
         </main>
 
-    <footer>
-      <div>
+    <footer style={{display: "flex", }}>
+      <div style={{margin: "auto"}}>
        <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank" rel='noreferrer'
         >LINKEDIN </a>
       </div>
       <div>
-        <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'>GITHUB</a>
+        <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'><LogoGithubIcon size='small' aria-label='GitHub'/>
+        </a>
+      </div>
+      <div>
       </div>
     </footer>
     </div>
