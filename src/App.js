@@ -10,11 +10,6 @@ import  {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
-
-
-// import ContactForm from './components/Contact';
-// import Resume from './components/Resume';
-// about me is default setting
 function App() {
   // const [contactSelected, setContactSelected] = useState(false);
   // const [categories] = useState([

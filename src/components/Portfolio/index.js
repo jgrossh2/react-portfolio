@@ -48,10 +48,10 @@ const Portfolio = ()  => {
             <div>
                {/* {isModalOpen && (<Modal currentProject={currentProject} onClose={toggleModal} />)} */}
                 <div className="flex-row">
-                   {projects.map((projects) => (
+                   {projects.map((projects, i) => (
                        <ProjectCard
                         // <img
-                        src={require(`../../assets/Portfolio/0.png`)}
+                        src={require(`../../assets/Portfolio/${i}.png`)}
                         alt={projects.name}
                         // onClick={() => toggleModal(image, i)}
                         // className='img-thumbnail mx-1'
