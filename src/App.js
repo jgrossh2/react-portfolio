@@ -4,7 +4,13 @@ import './App.css';
 // import About from './components/About';
 import Nav from './components/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { LogoGithubIcon } from '@primer/octicons-react';
+import { MarkGithubIcon } from '@primer/octicons-react';
+import  {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { linkedin } from '@fortawesome/fontawesome-svg-core';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+
+
 
 // import ContactForm from './components/Contact';
 // import Resume from './components/Resume';
@@ -54,16 +60,23 @@ function App() {
           )} */}
         </main>
 
-    <footer style={{display: "flex", }}>
-      <div style={{margin: "auto"}}>
+    <footer style={{display: "flex", margin: "20px"}}>
+      <div style={{ padding: "10px"}}>
+        {/* <i class="fab fa-linkedin"></i> */}
        <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank" rel='noreferrer'
-        >LINKEDIN </a>
+        >
+          <FontAwesomeIcon icon= {faLinkedin} size='2x' />
+        </a>
+        
       </div>
-      <div>
-        <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'><LogoGithubIcon size='small' aria-label='GitHub'/>
+      <div style={{padding: "10px"}}>
+        <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'><MarkGithubIcon size='medium' aria-label='GitHub'/>
         </a>
       </div>
-      <div>
+      <div style={{padding: "10px"}}>
+        <a href="https://stackoverflow.com/users/14150109/jgrossh2?tab=profile" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faStackOverflow} size= '2x'/>
+        </a>
       </div>
     </footer>
     </div>
