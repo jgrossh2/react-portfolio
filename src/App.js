@@ -1,27 +1,27 @@
 import React, {useState} from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import About from './components/About';
+// import About from './components/About';
 import Nav from './components/Nav';
-import ContactForm from './components/Contact';
-import Resume from './components/Resume';
+// import ContactForm from './components/Contact';
+// import Resume from './components/Resume';
 // about me is default setting
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [categories] = useState([
-    {
-      name: 'About me',
-      description: 'Find out more about Joanna Grosshans'
-    },
-    {
-      name: 'Portfolio',
-      description: 'Projects I have been a contributor for'
-    },
-    { name: 'Contact', description: 'Contact Me'},
-    { name: 'Resume', description: 'A link to my resume'}
-  ])
+  // const [contactSelected, setContactSelected] = useState(false);
+  // const [categories] = useState([
+  //   {
+  //     name: 'About me',
+  //     description: 'Find out more about Joanna Grosshans'
+  //   },
+  //   {
+  //     name: 'Portfolio',
+  //     description: 'Projects I have been a contributor for'
+  //   },
+  //   { name: 'Contact', description: 'Contact Me'},
+  //   { name: 'Resume', description: 'A link to my resume'}
+  // ])
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
     return (
       <div>
@@ -29,16 +29,17 @@ function App() {
           <div className="App">
           <h2>Joanna Grosshans, Web Developer</h2>
           </div>
-            <Nav
+          <Nav></Nav>
+            {/* <Nav
             categories={categories}
             setCurrentCategory={setCurrentCategory}
             currentCategory={currentCategory}
             contactSelected={contactSelected}
             setContactSelected={setContactSelected}
-            ></Nav>
+            ></Nav> */}
         </header>
         <main>
-          <Resume></Resume> 
+          {/* <Resume></Resume> 
           <About></About>
           <ContactForm></ContactForm>
           {!contactSelected ? (
@@ -47,7 +48,7 @@ function App() {
             </>
           ) : (
             <ContactForm></ContactForm>
-          )}
+          )} */}
         </main>
 
     <footer>

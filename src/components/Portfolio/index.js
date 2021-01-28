@@ -46,19 +46,22 @@ const Portfolio = ({ category })  => {
     const [currentProject, setCurrentProject] =useState();
     return(
         <div>
-            {/* {isModalOpen && (<Modal currentProject={currentProject} onClose={toggleModal} />)} */}
-                <div className="flex-row">
-                    {currentProjects.map((image, i) => (
-                        <img
-                        src={require(`../../assets/Portfolio/${i}.png`).default}
-                        alt={image.name}
-                        onClick={() => toggleModal(image, i)}
-                        className='img-thumbnail mx-1'
-                        key={image.name}
-                        />
-                    ))}
-                </div>
+            hello
         </div>
+        // <div>
+        //     {/* {isModalOpen && (<Modal currentProject={currentProject} onClose={toggleModal} />)} */}
+        //         <div className="flex-row">
+        //             {currentProjects.map((image, i) => (
+        //                 <img
+        //                 src={require(`../../assets/Portfolio/${i}.png`).default}
+        //                 alt={image.name}
+        //                 onClick={() => toggleModal(image, i)}
+        //                 className='img-thumbnail mx-1'
+        //                 key={image.name}
+        //                 />
+        //             ))}
+        //         </div>
+        // </div>
     );
 };
 
