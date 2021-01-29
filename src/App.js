@@ -7,15 +7,17 @@ import  {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import background from "./assets/Background/greenbackground.jpg"
+import styled, { keyframes } from 'styled-components';
+import { bounce } from 'react-animations';
 function App() {
   // const [contactSelected, setContactSelected] = useState(false);
   // const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
+  const Bounce = styled.div`animation: 2s ${keyframes`${bounce}`}`;
     return (
       <div style={{ backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
         <header>
           <div className="App" style={{padding: "20px"}}>
-          <h2>JOANNA GROSSHANS, WEB DEVELOPER</h2>
+          <Bounce><h2>JOANNA GROSSHANS, WEB DEVELOPER</h2></Bounce>
           </div>
           <Nav></Nav>
         </header>
