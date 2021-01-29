@@ -6,13 +6,13 @@ import { MarkGithubIcon } from '@primer/octicons-react';
 import  {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-
+import background from "./assets/Background/greenbackground.jpg"
 function App() {
   // const [contactSelected, setContactSelected] = useState(false);
   // const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
     return (
-      <div>
+      <div style={{ backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
         <header>
           <div className="App">
           <h2>Joanna Grosshans, Web Developer</h2>
@@ -20,22 +20,24 @@ function App() {
           <Nav></Nav>
         </header>
 
-    <footer style={{display: "flex", margin: "20px"}}>
-      <div style={{ padding: "10px"}}>
+    <footer style={{padding: "20px"}} >
+      <div style={{display: "flex", marginLeft: "40%"}}>
+      <div style={{padding: "15px"}}>
        <a href="https://www.linkedin.com/in/joanna-grosshans-6340603b/" target="_blank" rel='noreferrer'
         >
-          <FontAwesomeIcon icon= {faLinkedin} size='2x' />
-        </a>
-        
-      </div>
-      <div style={{padding: "10px"}}>
-        <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'><MarkGithubIcon size='medium' aria-label='GitHub'/>
+          <FontAwesomeIcon icon= {faLinkedin} size='4x' />
         </a>
       </div>
-      <div style={{padding: "10px"}}>
+      
+      <div style={{padding: "15px"}}>
+        <a href="https://github.com/jgrossh2" target="_blank" rel='noreferrer'><MarkGithubIcon size='large' aria-label='GitHub'/>
+        </a>
+      </div>
+      <div style={{padding: "15px"}}>
         <a href="https://stackoverflow.com/users/14150109/jgrossh2?tab=profile" target="_blank" rel="noreferrer">
-        <FontAwesomeIcon icon={faStackOverflow} size= '2x'/>
+        <FontAwesomeIcon icon={faStackOverflow} size= '4x'/>
         </a>
+      </div>
       </div>
     </footer>
     </div>

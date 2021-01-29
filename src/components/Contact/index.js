@@ -36,7 +36,7 @@ function ContactForm() {
     };
 
     return (
-        <Form>
+        <Form style={{ padding: "20px", margin: "auto"}}>
             <h1 data-testid='h1tag'>Contact Me</h1>
                 <div>
                 <a href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
