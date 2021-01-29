@@ -2,7 +2,7 @@ import React from 'react';
 // import Card from 'react-bootstrap/Card';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, Col, Row
+    CardTitle, CardSubtitle, Button, Col, Row, CardGroup
   } from 'reactstrap';
 import tally from '../../assets/Portfolio/0.png';
 import projects from '../../../src/projects.json';
@@ -23,8 +23,8 @@ function ProjectCard(projects) {
         //     </Card.ImgOverlay>
         // </Card>
         <div>
-        <Row>
-        <Col md={4}>
+        <Row md={3}>
+        {/* <Col md={4}> */}
             {/* <Portfolio></Portfolio> */}
 
         {/* <Card>
@@ -36,9 +36,9 @@ function ProjectCard(projects) {
             <Button>Button</Button>
           </CardBody>
         </Card> */}
-        </Col>
-        <Col md={4}>
-        <Card>
+        {/* </Col> */}
+        <Col md={3}>
+        <Card style={{display: "inline-block"}}>
           <CardImg top width="100%" src={require('../../assets/Portfolio/0.png').default} alt="Card image cap" />
           <CardBody>
             <CardTitle tag="h5">{projects.name}</CardTitle>

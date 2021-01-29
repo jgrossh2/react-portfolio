@@ -3,5 +3,20 @@
         "name": "Tally Max Word Generator",
         "image": "../assets/Portfolio/0.png",
         "description": "This is an application created especially for those who like to play word games."
+    },
+    {
+        "name": "Santa's Helper",
+        "image": "../assets/Portfolio/1.png",
+        "description": "This is an application that was created to help with preparing for the holidays."
+    },
+    {
+        "name": "CMS-Blog",
+        "image": "../assets/Portfolio/2.png",
+        "description": "Tech blog was created as an online environment for users to write and share posts about the tech world."
+    },
+    {
+        "name": "Work Scheduler",
+        "image": "../assets/Portfolio/3.png",
+        "description": "This is an application created to assist with your weekday schedule."
     }
 ]
