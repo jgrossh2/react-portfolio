@@ -1,7 +1,6 @@
 import React from 'react';
 import image from 'react-bootstrap/Image';
-// need photo 
-// need short bio
+
 function About() {
     return (
       <section>

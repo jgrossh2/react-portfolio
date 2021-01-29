@@ -1,4 +1,5 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
+import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
@@ -34,7 +35,7 @@ function ContactForm() {
         }   
 
     return (
-        <section>
+        <Form>
             <h1 data-testid='h1tag'>Contact Me</h1>
                 <div>
                 <a href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
@@ -43,17 +44,18 @@ function ContactForm() {
                 <label for="phone">PHONE: #847.347.7356</label>
                 </div>
                 <form id='contact-form' onSubmit={handleSubmit}>
-                    <div>
-                        <label htmlFor='name'>Name:</label>
-                        <input type='text' name='name' defaultValue={name} onBlur={handleChange}/>                         </div>
-                        <div>
-                            <label htmlFor='email'>Email Address:</label>
-                            <input type='email' name='email' defaultValue={email} onBlur={handleChange}/>
-                        </div>
-                        <div>
-                            <label htmlFor='message'>Message:</label>
-                            <textarea name='message' rows='5' defaultValue={message} onBlur={handleChange}/>
-                        </div>
+                        <FormGroup>
+                        <Label for='name'>Name:</Label>
+                        <Input type='text' name='name' defaultValue={name} onBlur={handleChange}/>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for='email'>Email Address:</Label>
+                            <Input type='email' name='email' defaultValue={email} onBlur={handleChange}/>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for='exampleText'>Message:</Label>
+                            <Input type="textarea" name='text' rows='5' defaultValue={message} onBlur={handleChange}/>
+                        </FormGroup>
                         {errorMessage && (
                             <div>
                                 <p className="error-text">{errorMessage}</p>
@@ -61,7 +63,36 @@ function ContactForm() {
                         )}
                         <button type='submit'>Submit</button>
                 </form>
-        </section>
+           
+        </Form>
+        // <section>
+        //     <h1 data-testid='h1tag'>Contact Me</h1>
+        //         <div>
+        //         <a href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
+        //         </div>
+        //         <div>
+        //         <label for="phone">PHONE: #847.347.7356</label>
+        //         </div>
+        //         <form id='contact-form' onSubmit={handleSubmit}>
+        //             <div>
+        //                 <label htmlFor='name'>Name:</label>
+        //                 <input type='text' name='name' defaultValue={name} onBlur={handleChange}/>                         </div>
+        //                 <div>
+        //                     <label htmlFor='email'>Email Address:</label>
+        //                     <input type='email' name='email' defaultValue={email} onBlur={handleChange}/>
+        //                 </div>
+        //                 <div>
+        //                     <label htmlFor='message'>Message:</label>
+        //                     <textarea name='message' rows='5' defaultValue={message} onBlur={handleChange}/>
+        //                 </div>
+        //                 {errorMessage && (
+        //                     <div>
+        //                         <p className="error-text">{errorMessage}</p>
+        //                     </div>
+        //                 )}
+        //                 <button type='submit'>Submit</button>
+        //         </form>
+        // </section>
     );
 }
  

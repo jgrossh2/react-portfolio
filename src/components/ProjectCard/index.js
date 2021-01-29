@@ -8,7 +8,7 @@ import projects from '../../../src/projects.json';
 import Portfolio from '../Portfolio';
 
 
-function ProjectCard(projects) {
+function ProjectCard(props) {
     return (
         <div>
         <Row md={3}>
@@ -26,13 +26,13 @@ function ProjectCard(projects) {
         </Card> */}
         {/* </Col> */}
         <Col md={3}>
-        <Card style={{display: "inline-block"}}>
-          <CardImg top width="100%" src={require('../../assets/Portfolio/0.png').default} alt="Card image cap" />
+        <Card>
+          <CardImg top width="100%" src={require('../../assets/Portfolio/0.png').default} alt={props.name} />
           <CardBody>
-            <CardTitle tag="h5">{projects.name}</CardTitle>
+            <CardTitle tag="h5">{props.name}</CardTitle>
             <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-            <CardText>{projects.description} </CardText>
-            <Button>Button</Button>
+            <CardText>{props.description} </CardText>
+   {/* /<Button>Button</Button> */}
           </CardBody>
         </Card>
         </Col>

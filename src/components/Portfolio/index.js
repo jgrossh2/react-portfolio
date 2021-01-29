@@ -13,11 +13,11 @@ const Portfolio = ()  => {
             </div>
             <div>
                 <div className="flex-row">
-                   {projects.map((projects, i) => (
+                   {projects.map((projects) => (
                        <ProjectCard
                         // <img
                         // src={projects.image}
-                        src={require(`../../assets/Portfolio/${i}.png`)}
+                        // src={require(`../../assets/Portfolio/${i}.png`)}
                         alt={projects.name}
                         // onClick={() => toggleModal(image, i)}
                         // className='img-thumbnail mx-1'
