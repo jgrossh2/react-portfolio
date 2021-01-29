@@ -24,8 +24,8 @@ function ProjectCard(props) {
             <CardText>
             <p>{props.part}</p>
             <p>{props.group}</p>
-            <p><a href={props.Github}>Github</a></p>
-            <p><a href={props.deployed}>Website</a></p>
+            <p><a href={props.Github} target="_blank" rel='noreferrer'>Github</a></p>
+            <p><a href={props.deployed} target="_blank" rel='noreferrer'>Website</a></p>
             </CardText>
           </CardBody>
         </Card>

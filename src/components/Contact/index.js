@@ -8,6 +8,13 @@ function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
+    function handleSubmit(e) {
+        e.preventDefault();
+        if (!errorMessage) {
+        console.log(formState);
+        }   
+    };
+
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -17,7 +24,7 @@ function ContactForm() {
             } else {
                 setErrorMessage('');
                 }
-            } else {
+        } else {
                 if (!e.target.value.length) {
                     setErrorMessage(`${e.target.name} is required.`);
                 } else{
@@ -28,12 +35,7 @@ function ContactForm() {
                 setFormState({...formState, [e.target.name]: e.target.value });
             }
         };    
-    function handleSubmit(e) {
-        e.preventDefault();
-        if (!errorMessage) {
-        console.log(formState);
-        }   
-    };
+   
 
     return (
         <Form style={{ padding: "20px", margin: "auto"}}>
@@ -62,7 +64,7 @@ function ContactForm() {
                                 <p className="error-text">{errorMessage}</p>
                             </div>
                         )}
-                        <button type='submit'>Submit</button>
+                        <button type='submit' style={{margin:"auto"}}>Submit</button>
                 </form>
         </Form>
     );

@@ -4,7 +4,7 @@ function Resume() {
     return (
       <section style={{ padding: "20px"}}>
         <h2 id="resume">RESUME</h2>
-        <a href={resume} target='_blank' rel="noreferrer" download>Download Joanna Grosshans' Resume</a>
+        <a href={resume} target='_blank' rel="noreferrer" download style={{ color: "black"}}>Download Joanna Grosshans' Resume</a>
             <div>
             <span style={{ fontWeight: "bold"}}>Front-end applications:</span>
             <ul>
