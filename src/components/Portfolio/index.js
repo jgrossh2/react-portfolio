@@ -7,9 +7,9 @@ const Portfolio = ()  => {
     const [currentProject, setCurrentProject] =useState(projects);
 
     return(
-        <div>
+        <div style={{padding: "20px"}}>
             <div>
-                Portfolio
+                <h2>PORTFOLIO</h2>
             </div>
             <div>
                 <div className="flex-row">

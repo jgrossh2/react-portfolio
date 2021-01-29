@@ -37,23 +37,23 @@ function ContactForm() {
 
     return (
         <Form style={{ padding: "20px", margin: "auto"}}>
-            <h1 data-testid='h1tag'>Contact Me</h1>
+            <h1 data-testid='h1tag'>CONTACT ME</h1>
                 <div>
-                <a href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
+                <a style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px" }}href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
                 </div>
-                <div>
+                <div style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px" }}>
                 <label for="phone">PHONE: #847.347.7356</label>
                 </div>
                 <form id='contact-form' onSubmit={handleSubmit}>
-                        <FormGroup>
+                        <FormGroup style={{ fontWeight: "bold", fontSize: "20px"}}>
                         <Label for='name'>Name:</Label>
                         <Input type='text' name='name' defaultValue={name} onBlur={handleChange}/>
                         </FormGroup>
-                        <FormGroup>
+                        <FormGroup style={{ fontWeight: "bold", fontSize: "20px"}}>
                             <Label for='email'>Email Address:</Label>
                             <Input type='email' name='email' defaultValue={email} onBlur={handleChange}/>
                         </FormGroup>
-                        <FormGroup>
+                        <FormGroup style={{ fontWeight: "bold", fontSize: "20px"}}>
                             <Label for='exampleText'>Message:</Label>
                             <Input type="textarea" name='text' rows='5' defaultValue={message} onBlur={handleChange}/>
                         </FormGroup>

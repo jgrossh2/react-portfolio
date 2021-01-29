@@ -2,21 +2,41 @@ import React from 'react';
 import resume from '../../assets/Resume/resume.pdf'
 function Resume() {
     return (
-      <section>
-        <h2 id="resume">Download my resume</h2>
+      <section style={{ padding: "20px"}}>
+        <h2 id="resume">RESUME</h2>
         <a href={resume} target='_blank' rel="noreferrer" download>Download Joanna Grosshans' Resume</a>
             <div>
-            Front-end applications:
+            <span style={{ fontWeight: "bold"}}>Front-end applications:</span>
             <ul>
                 HTML
             </ul>
             <ul>
-                CSS, Javascript, Express, React
+                CSS
+            </ul>
+            <ul>
+                Javascript
+            </ul>
+            <ul>
+                React
             </ul>
             </div>
             <div>
-            Back-end applications:
-            Node, SQL, sequelize, MongoDB, mongoose
+            <span style={{ fontWeight: "bold"}}> Back-end applications:</span>
+            <ul>
+                Node
+            </ul>
+            <ul>
+                SQL
+            </ul>
+            <ul>
+                Sequelize
+            </ul>
+            <ul>
+                MongoDB
+            </ul>
+            <ul>
+                Mongoose
+            </ul>
             </div>
       </section>
     );
