@@ -2,21 +2,37 @@
     {
         "name": "Tally Max Word Generator",
         "image": "../assets/Portfolio/0.png",
-        "description": "This is an application created especially for those who like to play word games."
+        "description": "This is an application created especially for those who like to play word games.",
+        "part": "Users can select letters in order to find 2-3 letter words that can be created. ",
+        "group": "Group work",
+        "Github": "https://github.com/jgrossh2/word-generator",
+        "deployed": "https://jgrossh2.github.io/word-generator/"
     },
     {
         "name": "Santa's Helper",
         "image": "../assets/Portfolio/1.png",
-        "description": "This is an application that was created to help with preparing for the holidays."
+        "description": "This is an application that was created to help with preparing for the holidays.",
+        "part": "Users can create an account and create, edit, and delete food, drink, recipe, and wishlist posts.",
+        "group": "Group work",
+        "Github": "https://github.com/jess-smith49/santas-helper",
+        "deployed": "https://sleepy-citadel-54217.herokuapp.com"
     },
     {
         "name": "CMS-Blog",
-        "image": "../assets/Portfolio/2.png",
-        "description": "Tech blog was created as an online environment for users to write and share posts about the tech world."
+        "image": "require(`../assets/Portfolio/2.png`)",
+        "description": "Tech blog was created as an online environment for users to write and share posts about the tech world.",
+        "part": "Users can create an account to create, edit and delete posts.",
+        "group":"Sole contributor",
+        "Github": "https://github.com/jgrossh2/CMS-blog",
+        "deployed": "https://jgrossh2.github.io/CMS-blog/"
     },
     {
         "name": "Work Scheduler",
         "image": "../assets/Portfolio/3.png",
-        "description": "This is an application created to assist with your weekday schedule."
+        "description": "Plan your day easily with this weekday scheduler.",
+        "part": "Able to add events at specific times, with color shading of hours to show past, present, and future",
+        "group": "Sole contributor",
+        "Github": "https://github.com/jgrossh2/work-scheduler",
+        "deployed": "https://jgrossh2.github.io/work-scheduler/"
     }
 ]

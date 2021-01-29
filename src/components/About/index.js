@@ -9,7 +9,7 @@ function About() {
             <div>
                 <img
                 style= {{width: "60%"}}
-                src={require(`../../assets/About/0.jpg`).default} rounded
+                src={require(`../../assets/About/0.jpg`).default} rounded="true"
                 alt="Joanna Grosshans"
                 // className="img-thumbnail mx-1"
                 key="Joanna Grosshans"

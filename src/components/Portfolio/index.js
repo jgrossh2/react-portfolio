@@ -16,7 +16,7 @@ const Portfolio = ()  => {
                    {projects.map((projects) => (
                        <ProjectCard
                         // <img
-                        // src={projects.image}
+                        src={projects.image}
                         // src={require(`../../assets/Portfolio/${i}.png`)}
                         alt={projects.name}
                         // onClick={() => toggleModal(image, i)}
@@ -25,6 +25,10 @@ const Portfolio = ()  => {
                         name={projects.name}
                         image={projects.image}
                         description={projects.description}
+                        part={projects.part}
+                        group={projects.group}
+                        Github={projects.Github}
+                        deployed={projects.deployed}
                         /> 
                    ))}
                 </div>

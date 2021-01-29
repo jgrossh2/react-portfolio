@@ -11,28 +11,22 @@ import Portfolio from '../Portfolio';
 function ProjectCard(props) {
     return (
         <div>
-        <Row md={3}>
-        {/* <Col md={4}> */}
-            {/* <Portfolio></Portfolio> */}
-
-        {/* <Card>
-          <CardImg top width="100%" src={projects.image} alt="Card image cap" />
-          <CardBody>
-            <CardTitle tag="h5">{projects.name}</CardTitle>
-            <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-            <CardText>{projects.description} </CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card> */}
-        {/* </Col> */}
-        <Col md={3}>
-        <Card>
-          <CardImg top width="100%" src={require('../../assets/Portfolio/0.png').default} alt={props.name} />
+        <Row>
+        <Col>
+        <Card style={{padding: "10px", margin: "15px"}}>
+          <CardImg top width="100%" 
+        //   src={require('../../assets/Portfolio/0.png').default} 
+            src={props.image}
+            alt={props.name} />
           <CardBody>
             <CardTitle tag="h5">{props.name}</CardTitle>
-            <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-            <CardText>{props.description} </CardText>
-   {/* /<Button>Button</Button> */}
+            <CardSubtitle tag="h6" className="mb-2 text-muted">{props.description}</CardSubtitle>
+            <CardText>
+            <p>{props.part}</p>
+            <p>{props.group}</p>
+            <p><a href={props.Github}>Github</a></p>
+            <p><a href={props.deployed}>Website</a></p>
+            </CardText>
           </CardBody>
         </Card>
         </Col>
