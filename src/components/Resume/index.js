@@ -24,10 +24,13 @@ function Resume() {
             <div>
             <span style={{ fontWeight: "bold"}}> Back-end applications:</span>
             <ul>
-                Node
+                Node.js
             </ul>
             <ul>
                 SQL
+            </ul>
+            <ul>
+                Express.js
             </ul>
             <ul>
                 Sequelize
