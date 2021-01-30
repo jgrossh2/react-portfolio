@@ -50,7 +50,7 @@
         "description": "Search for a city and get the details for the weather forecast.",
         "part": "With this dashboard, the weather is shown for the city entered. The current and 5 day weather forecast are shown.",
         "group": "Sole contributor",
-        "Github": "https://github.com/jgrossh2/work-scheduler",
+        "Github": "https://github.com/jgrossh2/weather-dashboard",
         "deployed": "https://jgrossh2.github.io/Weather-Dashboard"
     }
 ]
