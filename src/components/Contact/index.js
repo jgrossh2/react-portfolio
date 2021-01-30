@@ -4,8 +4,8 @@ import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
 
-    const [formState, setFormState] = useState({ name:' ', email:' ', message:' ' });
-    const [errorMessage, setErrorMessage] = useState('');
+    const [formState, setFormState] = useState({ name:'', email:'', message:'' });
+    const [errorMessage, setErrorMessage] = useState(' ');
     const { name, email, message } = formState;
 
     function handleSubmit(e) {
@@ -27,7 +27,7 @@ function ContactForm() {
         } else {
                 if (!e.target.value.length) {
                     setErrorMessage(`${e.target.name} is required.`);
-                } else{
+                } else {
                     setErrorMessage('');
                 }
             }

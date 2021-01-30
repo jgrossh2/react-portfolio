@@ -11,8 +11,7 @@ import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
 
 function App() {
-  // const [contactSelected, setContactSelected] = useState(false);
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   const Bounce = styled.div`animation: 2s ${keyframes`${bounce}`}`;
     return (
       <div style={{ backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
@@ -49,7 +48,3 @@ function App() {
 
 export default App;
 
-// contact form message response
-// projects pictures and page layout and information
-// Navbar change?
-// 

@@ -17,7 +17,8 @@ function ProjectCard(props) {
           <CardImg top width="100%" 
         //   src={require('../../assets/Portfolio/0.png').default} 
             src={props.image}
-            alt={props.name} />
+            alt={props.name} 
+            />
           <CardBody>
             <CardTitle tag="h5">{props.name}</CardTitle>
             <CardSubtitle tag="h6" className="mb-2 text-muted">{props.description}</CardSubtitle>

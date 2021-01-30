@@ -1,7 +1,7 @@
 [
     {
         "name": "Tally Max Word Generator",
-        "image": "../assets/Portfolio/0.png",
+        "image": "../../assets/Portfolio/0.png",
         "description": "This is an application created especially for those who like to play word games.",
         "part": "Users can select letters in order to find 2-3 letter words that can be created. ",
         "group": "Group work",
@@ -34,5 +34,23 @@
         "group": "Sole contributor",
         "Github": "https://github.com/jgrossh2/work-scheduler",
         "deployed": "https://jgrossh2.github.io/work-scheduler/"
+    },
+    {
+        "name": "Note taker",
+        "image": "../assets/Portfolio/3.png",
+        "description": "Keep track of all your notes using this note tracker.",
+        "part": "With this note taker, the user can create, edit and delete notes.",
+        "group": "Sole contributor",
+        "Github": "https://github.com/jgrossh2/note-taker",
+        "deployed": "https://shrouded-reef-18833.herokuapp.com/"
+    },
+    {
+        "name": "Weather dashboard",
+        "image": "../assets/Portfolio/3.png",
+        "description": "Search for a city and get the details for the weather forecast.",
+        "part": "With this dashboard, the weather is shown for the city entered. The current and 5 day weather forecast are shown.",
+        "group": "Sole contributor",
+        "Github": "https://github.com/jgrossh2/work-scheduler",
+        "deployed": "https://jgrossh2.github.io/Weather-Dashboard"
     }
 ]
