@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, Col, Row, CardGroup
+    CardTitle, CardSubtitle
   } from 'reactstrap';
 import tally from '../../assets/Portfolio/0.png';
 import projects from '../../../src/projects.json';
@@ -11,11 +11,8 @@ import Portfolio from '../Portfolio';
 function ProjectCard(props) {
     return (
         <div>
-        <Row>
-        <Col>
-        <Card style={{padding: "10px", margin: "15px"}}>
-          <CardImg top width="100%" 
-        //   src={require('../../assets/Portfolio/0.png').default} 
+        <Card style={{padding: "10px", margin: "15px", width: "35%"}}>
+          <CardImg top width="100%"
             src={props.image}
             alt={props.name} 
             />
@@ -30,9 +27,8 @@ function ProjectCard(props) {
             </CardText>
           </CardBody>
         </Card>
-        </Col>
-        </Row>
       </div>
+     
     )
 }
 
