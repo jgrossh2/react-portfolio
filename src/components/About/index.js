@@ -8,7 +8,7 @@ function About() {
         <div style={{display: "flex", padding: "50px"}}>
             <div>
                 <img
-                style= {{width: "60%"}}
+                style= {{width: "85%"}}
                 src={require(`../../assets/About/0.jpg`).default} rounded="true"
                 alt="Joanna Grosshans"
                 // className="img-thumbnail mx-1"

@@ -1,6 +1,7 @@
 import React from 'react';
 import resume from '../../assets/Resume/resume.pdf'
 function Resume() {
+  // const [front]
     return (
       <section style={{ padding: "20px"}}>
         <h2 id="resume">RESUME</h2>
