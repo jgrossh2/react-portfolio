@@ -1,52 +1,54 @@
 import React, { useState } from "react";
-import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
-import { validateEmail } from '../../utils/helpers';
+// import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+// import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
 
-    const [formState, setFormState] = useState({ name:'', email:'', message:'' });
-    const [errorMessage, setErrorMessage] = useState(' ');
-    const { name, email, message } = formState;
+    // const [formState, setFormState] = useState({ name:'', email:'', message:'' });
+    // const [errorMessage, setErrorMessage] = useState(' ');
+    // const { name, email, message } = formState;
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        if (!errorMessage) {
-        console.log(formState);
-        }   
-    };
+    // function handleSubmit(e) {
+    //     e.preventDefault();
+    //     if (!errorMessage) {
+    //     console.log(formState);
+    //     }   
+    // };
 
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            console.log(isValid);
-            if (!isValid) {
-                setErrorMessage('Your email is invalid.');
-            } else {
-                setErrorMessage('');
-                }
-        } else {
-                if (!e.target.value.length) {
-                    setErrorMessage(`${e.target.name} is required.`);
-                } else {
-                    setErrorMessage('');
-                }
-            }
-            if (!errorMessage) {
-                setFormState({...formState, [e.target.name]: e.target.value });
-            }
-        };    
+    // function handleChange(e) {
+    //     if (e.target.name === 'email') {
+    //         const isValid = validateEmail(e.target.value);
+    //         console.log(isValid);
+    //         if (!isValid) {
+    //             setErrorMessage('Your email is invalid.');
+    //         } else {
+    //             setErrorMessage('');
+    //             }
+    //     } else {
+    //             if (!e.target.value.length) {
+    //                 setErrorMessage(`${e.target.name} is required.`);
+    //             } else {
+    //                 setErrorMessage('');
+    //             }
+    //         }
+    //         if (!errorMessage) {
+    //             setFormState({...formState, [e.target.name]: e.target.value });
+            
+        // };    
    
 
     return (
-        <Form style={{ padding: "20px", margin: "auto"}}>
-            <h1 data-testid='h1tag'>CONTACT ME</h1>
+        <div>
+        {/* <Form style={{ padding: "20px", margin: "auto"}}> */}
+            <h1 data-testid='h1tag' style={{ paddingLeft: "20px"}}>CONTACT ME</h1>
                 <div>
-                <a style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px" }}href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
+                <a style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px", textDecoration: "underline", paddingLeft: "20px"}}href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
                 </div>
-                <div style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px" }}>
-                <label for="phone">PHONE: #847.347.7356</label>
+                <div style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px", paddingLeft: "20px" }}>
+                <label for="phone">
+                    PHONE: #847.347.7356</label>
                 </div>
-                <form id='contact-form' onSubmit={handleSubmit}>
+                {/* {/* <form id='contact-form' onSubmit={handleSubmit}>
                         <FormGroup style={{ fontWeight: "bold", fontSize: "20px"}}>
                         <Label for='name'>Name:</Label>
                         <Input type='text' name='name' defaultValue={name} onBlur={handleChange}/>
@@ -65,9 +67,11 @@ function ContactForm() {
                             </div>
                         )}
                         <button type='submit' style={{margin:"auto"}}>Submit</button>
-                </form>
-        </Form>
-    );
+                </form> */}
+
+            {/* </Form> */}
+            </div>
+        );
 }
- 
+
 export default ContactForm;

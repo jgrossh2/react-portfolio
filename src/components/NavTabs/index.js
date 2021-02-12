@@ -3,7 +3,7 @@ import React from 'react';
 function NavTabs(props) {
   const tabs = ['About', 'Contact', 'Resume', 'Portfolio'];
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs justify-content-center">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
           <a   style={{ color: "black", fontSize: "20px"}}
