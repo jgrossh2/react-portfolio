@@ -8,7 +8,7 @@ function About() {
         <div style={{display: "inline-block", padding: "20px"}}>
             <div>
                 <img
-                style= {{width: "45%"}}
+                style= {{width: "45%", justifyContent: "center"}}
                 src={require(`../../assets/About/0.jpg`).default} rounded="true"
                 alt="Joanna Grosshans"
                 key="Joanna Grosshans"
