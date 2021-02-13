@@ -5,7 +5,7 @@
 This portfolio is for Joanna Grosshans. The purpose of this application is to display portfolio projects, and contact information for Joanna to future employers and colleagues. There is also an "About" section which gives background information. In addition, there is a link to download her resume, and a list of learned technologies. There are links to her Github, LinkedIn, and Stackoverflow pages.
 
 ## Images 
-![budget-tracker homepage](./public/portfolio-image.png) <br>
+![portfolio homepage](./public/portfolio-image.png) <br>
 
 ## Installation
     React-create-app, reactstrap

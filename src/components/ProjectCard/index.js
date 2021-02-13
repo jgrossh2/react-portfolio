@@ -10,9 +10,10 @@ import Portfolio from '../Portfolio';
 
 function ProjectCard(props) {
     return (
+      
         <div>
         <CardGroup style={{ display: "flex", padding: "20px"}}>
-        <Card style={{margin: "auto", background: "none", display: "flex", maxWidth: "50%", padding: "20px"}}>
+        <Card style={{margin: "auto", background: "none", display: "flex", maxWidth: "50%", padding: "20px" }}>
           <CardImg class = "img-square-wrapper" style={{ width: "100%", height: "20%"}}
             src={props.image}
             alt={props.name} 
