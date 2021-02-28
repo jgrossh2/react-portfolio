@@ -1,5 +1,14 @@
 [
     {
+        "name": "Woodland Consulting LLC",
+        "image": "../../assets/Portfolio/0.png",
+        "description": "Professional portfolio and website for Woodland Consulting LLC.",
+        "part": "The work of Woodland Consulting is displayed, as well as contact information and form to attact new clients. For the admin, a separate access is granted to field messages from the contact and update information on the website.",
+        "group": "Group work",
+        "Github": "https://github.com/SMKrizan/WoodlandConsultingLLC",
+        "deployed": "https://woodland-consulting.herokuapp.com/"
+    },
+    {
         "name": "Tally Max Word Generator",
         "image": "../../assets/Portfolio/0.png",
         "description": "This is an application created especially for those who like to play word games.",
@@ -7,15 +16,6 @@
         "group": "Group work",
         "Github": "https://github.com/jgrossh2/word-generator",
         "deployed": "https://jgrossh2.github.io/word-generator/"
-    },
-    {
-        "name": "Santa's Helper",
-        "image": "../assets/Portfolio/1.png",
-        "description": "This is an application that was created to help with preparing for the holidays.",
-        "part": "Users can create an account and create, edit, and delete food, drink, recipe, and wishlist posts.",
-        "group": "Group work",
-        "Github": "https://github.com/jess-smith49/santas-helper",
-        "deployed": "https://sleepy-citadel-54217.herokuapp.com"
     },
     {
         "name": "CMS-Blog",
