@@ -22,7 +22,7 @@ const Portfolio = ()  => {
                        <ProjectCard
                         image={require(`../../assets/Portfolio/${i}.png`).default}
                         alt={projects.name}
-                        className = {".col-6 .col-sm-4 img-thumbnail mx-1 flex-row proj-" + i}
+                        className = {"img-thumbnail mx-1 flex-row proj-" + i}
                         key={projects.name}
                         name={projects.name}
                         description={projects.description}

@@ -14,7 +14,7 @@ function ProjectCard(props) {
         <div>
           <Container>
             <Row>
-              <Col md="4">
+              <Col>
         <CardGroup 
         className = {props.className}
         style={{ display: "flex", padding: "20px"}}>
