@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, CardGroup
+    CardTitle, CardSubtitle, CardGroup, Container, Row, Col
   } from 'reactstrap';
 import tally from '../../assets/Portfolio/0.png';
 import projects from '../../../src/projects.json';
@@ -12,8 +12,15 @@ function ProjectCard(props) {
     return (
       
         <div>
-        <CardGroup style={{ display: "flex", padding: "20px"}}>
-        <Card style={{margin: "auto", background: "none", display: "flex", maxWidth: "50%", padding: "20px" }}>
+          <Container>
+            <Row>
+              <Col md="4">
+        <CardGroup 
+        className = {props.className}
+        style={{ display: "flex", padding: "20px"}}>
+        <Card style={{margin: "auto", background: "none", display: "flex", maxWidth: "50%", padding: "20px" }}
+        //  className = {props.className}
+        >
           <CardImg class = "img-square-wrapper" style={{ width: "100%", height: "20%"}}
             src={props.image}
             alt={props.name} 
@@ -30,6 +37,9 @@ function ProjectCard(props) {
           </CardBody>
         </Card>
         </CardGroup>
+        </Col>
+        </Row>
+        </Container>
       </div>
      
     )
