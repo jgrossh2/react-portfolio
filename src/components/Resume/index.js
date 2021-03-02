@@ -49,8 +49,9 @@ function Resume() {
             {/* {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faReact} size="4x" />
           </a> */}
-            React
+            React/Redux
           </ul>
+          <ul>JSON Web Token</ul>
         </div>
         <div style={{ display: "flex" }}>
           <span style={{ fontWeight: "bold", fontSize: "20px"}}> Back-end applications:</span>
@@ -66,6 +67,7 @@ function Resume() {
           </a> */}
             SQL
           </ul>
+          <ul>NoSQL</ul>
           <ul>
             {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faReact} size="4x" />
@@ -75,12 +77,23 @@ function Resume() {
           <ul>Sequelize</ul>
           <ul>MongoDB</ul>
           <ul>Mongoose</ul>
+          <ul>GraphQL</ul>
+          <ul>Apollo</ul>
         </div>
         <div style={{ display: "flex" }}>
           <p style={{ fontWeight: "bold", fontSize: "20px" }}>Tools:</p>
           <ul>GitHub</ul>
           <ul>Visual Studio Code</ul>
           <ul>Heroku</ul>
+        </div>
+        <div style={{ display: "flex" }}>
+        <p style={{ fontWeight: "bold", fontSize: "20px" }}>Concepts</p>
+        <ul>OOP</ul>
+        <ul>DOM</ul>
+        <ul>MERN</ul>
+        <ul>RESTful APIs</ul>
+        <ul>PWA</ul>
+        <ul>Jest-TDD</ul>
         </div>
       </section>
     </div>

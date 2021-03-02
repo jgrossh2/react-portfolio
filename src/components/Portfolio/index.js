@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import projects from '../../projects.json'
 import ProjectCard from '../ProjectCard';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 
 const Portfolio = ()  => {
    
@@ -15,9 +13,7 @@ const Portfolio = ()  => {
             </div>
             
             <div>
-            {/* className="flex-row" */}
                 <div style={{ }}>
-                    {/* <Carousel showArrows={true}  style={{margin: "auto", width: "30%", height: "20%" }}> */}
                    {projects.map((projects, i) => (
                        <ProjectCard
                         image={require(`../../assets/Portfolio/${i}.png`).default}
@@ -32,9 +28,7 @@ const Portfolio = ()  => {
                         deployed={projects.deployed}
                         /> 
                    ))}
-                   {/* </Carousel> */}
                 </div>
-                
             </div>
          
         </div>
