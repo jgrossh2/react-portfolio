@@ -13,12 +13,14 @@ const Portfolio = ()  => {
             </div>
             
             <div>
-                <div style={{ }}>
+                <div 
+                // style={{ position: "relative", padding: "100px" }}
+                >
                    {projects.map((projects, i) => (
                        <ProjectCard
                         image={require(`../../assets/Portfolio/${i}.png`).default}
                         alt={projects.name}
-                        className='img-thumbnail mx-1 flex-row'
+                        // className='img-thumbnail mx-1 flex-row'
                         key={projects.name}
                         name={projects.name}
                         description={projects.description}

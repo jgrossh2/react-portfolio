@@ -10,16 +10,26 @@ import Portfolio from '../Portfolio';
 
 function ProjectCard(props) {
     return (
-        <div>
-        <CardGroup style={{ display: "flex", padding: "20px"}}>
-        <Card style={{margin: "auto", background: "none", display: "flex", maxWidth: "50%", padding: "20px"}}>
-          <CardImg class = "img-square-wrapper" style={{ width: "100%", height: "20%"}}
+        <div 
+        // style={{ width: "75%", }}
+        >
+        <CardGroup 
+        // style={{ width: "50%"}}
+        >
+        <Card 
+        style={{ margin: "20px"}}
+        // style={{margin: "auto", background: "none", display: "flex", maxWidth: "50%", padding: "20px"}}
+        >
+          <CardImg class = "img-square-wrapper" 
+          style={{ maxHeight: "50%" }}
             src={props.image}
             alt={props.name} 
             />
-          <CardBody>
+          <CardBody className="border" style={{ margin: "20px"}}>
             <CardTitle tag="h5">{props.name}</CardTitle>
-            <CardSubtitle tag="h6" className="mb-2 text-muted">{props.description}</CardSubtitle>
+            <CardSubtitle tag="h6" 
+            // className="mb-2 text-muted"
+            >{props.description}</CardSubtitle>
             <CardText>
             <p>{props.part}</p>
             <p>{props.group}</p>
