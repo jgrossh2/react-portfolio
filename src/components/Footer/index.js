@@ -11,10 +11,17 @@ function Footer() {
     style={{ padding: "20px" }}
     >
       <div 
-      style={{ display: "flex", marginLeft: "40%" }}
+      style={{ display: "flex", marginLeft: "25%"}}
       >
+           <div>
+                <a style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px", textDecoration: "underline" }}href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
+                </div>
+                <div style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px" }}>
+                <label for="phone">
+                    PHONE: #847.347.7356</label>
+                </div>
         <div 
-        style={{ padding: "15px" }}
+        // style={{ padding: "15px" }}
         >
           <a
             style={{ color: "darkslategrey" }}
