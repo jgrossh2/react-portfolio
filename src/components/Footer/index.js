@@ -5,11 +5,17 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faStackOverflow } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
-    
+
   return (
-    <footer style={{ padding: "20px" }}>
-      <div style={{ display: "flex", marginLeft: "40%" }}>
-        <div style={{ padding: "15px" }}>
+    <footer 
+    style={{ padding: "20px" }}
+    >
+      <div 
+      style={{ display: "flex", marginLeft: "40%" }}
+      >
+        <div 
+        style={{ padding: "15px" }}
+        >
           <a
             style={{ color: "darkslategrey" }}
             href="https://www.linkedin.com/in/joanna-grosshans-6340603b/"

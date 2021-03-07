@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 function NavTabs(props) {
-  const tabs = ['About', 'Contact', 'Resume', 'Portfolio'];
   return (
     // <ul className="nav nav-tabs justify-content-center">
     //   {tabs.map(tab => (
@@ -25,7 +24,7 @@ function NavTabs(props) {
         <a href="/" >Home</a>
       </li> */}
       <li className="nav-item" style={{ margin: "10px"}}>
-        <Link to="/About">About</Link>
+        <Link to="/Home">Home</Link>
       </li>
       <li style={{ margin: "10px"}}>
         <Link to="/Contact">Contact</Link>

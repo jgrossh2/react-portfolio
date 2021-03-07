@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+/* footer {
+  position: relative;
+} */
+
+img {
+  max-width: 50%;
+  margin-left: 150px;
+}
