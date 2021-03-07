@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 // import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+function ContactInfo() {
 
     // const [formState, setFormState] = useState({ name:'', email:'', message:'' });
     // const [errorMessage, setErrorMessage] = useState(' ');
@@ -74,4 +74,4 @@ function ContactForm() {
         );
 }
 
-export default ContactForm;
+export default ContactInfo;

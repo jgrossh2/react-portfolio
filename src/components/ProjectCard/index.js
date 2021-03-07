@@ -5,7 +5,7 @@ import {
   } from 'reactstrap';
 import tally from '../../assets/Portfolio/0.png';
 import projects from '../../../src/projects.json';
-import Portfolio from '../Portfolio';
+import Portfolio from '../PortfolioInfo';
 
 
 function ProjectCard(props) {

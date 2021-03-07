@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import projects from '../../projects.json'
 import ProjectCard from '../ProjectCard';
 
-const Portfolio = ()  => {
+const PortfolioInfo = ()  => {
    
     const [currentProject, setCurrentProject] =useState(projects);
 
@@ -37,4 +37,4 @@ const Portfolio = ()  => {
     );
 };
 
-export default Portfolio;
+export default PortfolioInfo;

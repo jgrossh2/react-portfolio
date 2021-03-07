@@ -22,7 +22,7 @@ function NavTabs(props) {
     <div>
     <ul className="nav nav-tabs justify-content-center">
       <li className="nav-item" style={{ margin: "10px"}}>
-        <a href="/">Home</a>
+        <a href="/" >Home</a>
       </li>
       <li className="nav-item" style={{ margin: "10px"}}>
         <a href="/About">About</a>

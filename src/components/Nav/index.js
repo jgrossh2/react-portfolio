@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import About from '../About';
-import Contact from '../Contact';
+import Contact from '../ContactInfo';
 import Resume from '../Resume';
-import Portfolio from '../Portfolio';
+import Portfolio from '../PortfolioInfo';
 import NavTabs from '../NavTabs'
 
 function Nav() {
