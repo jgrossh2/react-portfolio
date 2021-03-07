@@ -5,7 +5,6 @@ import About from '../../components/About';
 function Home() {
     return (
         <section>
-            <p>Home page</p>
             <About />
         </section>
     )

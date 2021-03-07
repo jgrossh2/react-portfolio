@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import About from '../About';
-import Contact from '../ContactInfo';
-import Resume from '../Resume';
-import Portfolio from '../PortfolioInfo';
+import Home from '../../pages/Home';
+import ContactInfo from '../ContactInfo';
+import ResumeInfo from '../ResumeInfo';
+import PortfolioInfo from '../PortfolioInfo';
 import NavTabs from '../NavTabs'
 
 function Nav() {
@@ -14,14 +14,14 @@ function Nav() {
 
     const renderPage = () => {
         switch(currentPage) {
-            case "About" :
-                return <About />;
+            case "Home" :
+                return <Home />;
             case "Contact" :
-                return <Contact />;
+                return <ContactInfo />;
             case "Resume" :
-                return <Resume />;
+                return <ResumeInfo />;
             case "Portfolio" :
-                return <Portfolio />;
+                return <PortfolioInfo />;
             default: 
                 return
         }

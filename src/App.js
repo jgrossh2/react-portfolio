@@ -11,7 +11,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { bounce } from 'react-animations';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
+import About from './components/About';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -32,9 +33,11 @@ function App() {
       <Router>
       <Header />
       <Switch>
+        {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/" component={Home} />
-        {/* <Route exact path="/About" component={About} /> */}
+        <Route exact path="/About" component={About} />
         <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/Resume" component={Resume} />
         <Route exact path="/Portfolio" component={Portfolio} />
       </Switch>
       <Footer />

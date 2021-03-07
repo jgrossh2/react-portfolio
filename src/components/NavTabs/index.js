@@ -21,17 +21,20 @@ function NavTabs(props) {
     // </ul>
     <div>
     <ul className="nav nav-tabs justify-content-center">
-      <li className="nav-item" style={{ margin: "10px"}}>
+      {/* <li className="nav-item" style={{ margin: "10px"}}>
         <a href="/" >Home</a>
-      </li>
+      </li> */}
       <li className="nav-item" style={{ margin: "10px"}}>
-        <a href="/About">About</a>
+        <Link to="/About">About</Link>
       </li>
       <li style={{ margin: "10px"}}>
-        <a href="/Contact">Contact</a>
+        <Link to="/Contact">Contact</Link>
       </li>
       <li style={{ margin: "10px"}}>
-        <a href="/Portfolio">Portfolio</a>
+        <Link to="/Resume">Resume</Link>
+      </li>
+      <li style={{ margin: "10px"}}>
+        <Link to="/Portfolio">Portfolio</Link>
       </li>
     </ul>
   </div>

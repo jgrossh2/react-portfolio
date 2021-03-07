@@ -9,7 +9,7 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
-function Resume() {
+function ResumeInfo() {
   return (
     <div>
       <section style={{ padding: "20px" }}>
@@ -100,4 +100,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default ResumeInfo;
