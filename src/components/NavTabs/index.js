@@ -26,9 +26,9 @@ function NavTabs(props) {
       <li className="nav-item" style={{ margin: "10px"}}>
         <Link to="/Home">Home</Link>
       </li>
-      <li style={{ margin: "10px"}}>
+      {/* <li style={{ margin: "10px"}}>
         <Link to="/Contact">Contact</Link>
-      </li>
+      </li> */}
       <li style={{ margin: "10px"}}>
         <Link to="/Resume">Resume</Link>
       </li>
