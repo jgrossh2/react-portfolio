@@ -11,7 +11,9 @@ import Portfolio from '../PortfolioInfo';
 function ProjectCard(props) {
     return (
         <div 
+        style={{flexWrap: "wrap", width: "100%", maxWidth: "500px", margin: "30px" }}
         // style={{ width: "75%", }}
+        // style={{ position: "relative", width: "100%", maxWidth: "500px", margin: "30px" }}
         >
         <CardGroup 
         // style={{ width: "50%"}}

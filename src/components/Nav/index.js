@@ -3,7 +3,8 @@ import Home from '../../pages/Home';
 import ContactInfo from '../ContactInfo';
 import ResumeInfo from '../ResumeInfo';
 import PortfolioInfo from '../PortfolioInfo';
-import NavTabs from '../NavTabs'
+import NavTabs from '../NavTabs';
+import About from '../About';
 
 function Nav() {
 
@@ -16,14 +17,16 @@ function Nav() {
         switch(currentPage) {
             case "Home" :
                 return <Home />;
-            case "Contact" :
-                return <ContactInfo />;
+            // case "About" :
+            //     return <About />;
+            // case "Contact" :
+            //     return <ContactInfo />;
             case "Resume" :
                 return <ResumeInfo />;
             case "Portfolio" :
                 return <PortfolioInfo />;
-            default: 
-                return
+            // default: 
+            //     return <Home />;
         }
     }
     return (
