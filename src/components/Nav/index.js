@@ -4,7 +4,7 @@ import ContactInfo from '../ContactInfo';
 import ResumeInfo from '../ResumeInfo';
 import PortfolioInfo from '../PortfolioInfo';
 import NavTabs from '../NavTabs';
-import About from '../About';
+import About from '../AboutInfo';
 
 function Nav() {
 

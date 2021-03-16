@@ -1,7 +1,7 @@
 import React from 'react';
 import image from 'react-bootstrap/Image';
 
-function About() {
+function AboutInfo() {
     return (
       <section style={{padding: "20px"}}>
         <div style={{ margin: "auto", display: "flex"}}>
@@ -24,4 +24,4 @@ function About() {
     );
   }
   
-  export default About;
+  export default AboutInfo;
