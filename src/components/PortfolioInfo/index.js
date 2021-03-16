@@ -16,7 +16,8 @@ const PortfolioInfo = ()  => {
                 <div 
                 // style={{flexWrap: "wrap", width: "100%", maxWidth: "500px", margin: "30px" }}
                 // style={{ position: "relative", padding: "100px" }}
-                style={{ display:"flex"}}
+                // style={{ display:"flex"}}
+                style={{ flexWrap: "wrap", display: "flex", marginLeft: "200px"}}
                 >
                    {projects.map((projects, i) => (
                        <ProjectCard
