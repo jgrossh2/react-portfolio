@@ -5,7 +5,7 @@ function AboutInfo() {
     return (
       <section style={{padding: "20px"}}>
         <div style={{ margin: "auto", display: "flex"}}>
-            <div>
+            <div className= "img-bio">
                 <img 
                 src={require(`../../assets/About/0.jpg`).default} rounded="true"
                 alt="Joanna Grosshans"

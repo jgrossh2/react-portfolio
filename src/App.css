@@ -40,7 +40,12 @@
   position: relative;
 } */
 
-img {
+.img-bio {
   max-width: 50%;
   margin-left: 150px;
+}
+img {
+  max-width: 420px;
+  height: 280px;
+  border: solid !important
 }
