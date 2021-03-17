@@ -25,75 +25,77 @@ function ResumeInfo() {
             Download Joanna Grosshans' Resume
           </a>
         </div>
-        <div style={{display: "flex", padding: "50px, 0, 0, 0" }}>
-          <span style={{ fontWeight: "bold", fontSize: "20px" }}>Front-end applications:</span>
-          <ul>
+        <div style={{display: "flex", padding: "50px, 0, 0, 0", margin: "10px" }}>
+          <span style={{ fontWeight: "bold", fontSize: "16px" }}>Front-end technologies:</span>
+          <ul className= "tech"
+          // style={{ border: "solid 1px"}}
+          >
             {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faHtml5} size="4x" />
           </a> */}
             HTML
           </ul>
-          <ul>
+          <ul className= "tech">
             {/* { <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faCss3} size="4x" />
           </a> */}
             CSS{" "}
           </ul>
-          <ul>
+          <ul className= "tech">
             {/* {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faJs} size="4x" />
           </a> */}
             Javascript
           </ul>
-          <ul>
+          <ul className= "tech">
             {/* {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faReact} size="4x" />
           </a> */}
             React/Redux
           </ul>
-          <ul>JSON Web Token</ul>
+          <ul className= "tech">JSON Web Token</ul>
         </div>
         <div style={{ display: "flex" }}>
-          <span style={{ fontWeight: "bold", fontSize: "20px"}}> Back-end applications:</span>
-          <ul>
+          <span style={{ fontWeight: "bold", fontSize: "16px"}}> Back-end technologies:</span>
+          <ul className= "tech">
             {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faNodeJs} size="4x" />
           </a> */}
             Node.js
           </ul>
-          <ul>
+          <ul className= "tech">
             {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faReact} size="4x" />
           </a> */}
             SQL
           </ul>
-          <ul>NoSQL</ul>
-          <ul>
+          <ul className= "tech">NoSQL</ul>
+          <ul className= "tech">
             {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faReact} size="4x" />
           </a> */}
             Express.js
           </ul>
-          <ul>Sequelize</ul>
-          <ul>MongoDB</ul>
-          <ul>Mongoose</ul>
-          <ul>GraphQL</ul>
-          <ul>Apollo</ul>
+          <ul className= "tech">Sequelize</ul>
+          <ul className= "tech">MongoDB</ul>
+          <ul className= "tech">Mongoose</ul>
+          <ul className= "tech">GraphQL</ul>
+          <ul className= "tech">Apollo</ul>
         </div>
         <div style={{ display: "flex" }}>
-          <p style={{ fontWeight: "bold", fontSize: "20px" }}>Tools:</p>
-          <ul>GitHub</ul>
-          <ul>Visual Studio Code</ul>
-          <ul>Heroku</ul>
+          <p style={{ fontWeight: "bold", fontSize: "16px" }}>Tools:</p>
+          <ul className= "tech">GitHub</ul>
+          <ul className= "tech">Visual Studio Code</ul>
+          <ul className= "tech">Heroku</ul>
         </div>
         <div style={{ display: "flex" }}>
-        <p style={{ fontWeight: "bold", fontSize: "20px" }}>Concepts</p>
-        <ul>OOP</ul>
-        <ul>DOM</ul>
-        <ul>MERN</ul>
-        <ul>RESTful APIs</ul>
-        <ul>PWA</ul>
-        <ul>Jest-TDD</ul>
+        <p style={{ fontWeight: "bold", fontSize: "16px" }}>Concepts</p>
+        <ul className= "tech">OOP</ul>
+        <ul className= "tech">DOM</ul>
+        <ul className= "tech">MERN</ul>
+        <ul className= "tech">RESTful APIs</ul>
+        <ul className= "tech">PWA</ul>
+        <ul className= "tech">Jest-TDD</ul>
         </div>
       </section>
     </div>

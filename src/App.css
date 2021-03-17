@@ -41,13 +41,14 @@
 } */
 
 .img-bio {
-  max-width: 50%;
+  height: 500px;
   margin-left: 150px;
+  margin: 50px
 }
 img {
   max-width: 500px;
   height: 250px;
-  border: solid !important
+  border: solid !important;
 }
 
   .img-thumbnail {
@@ -78,3 +79,9 @@ img {
   margin: 20px;
   flex: 1
 } */
+
+.tech {
+  border: solid 1px;
+  padding: 10px;
+  margin: 15px
+}
