@@ -11,7 +11,7 @@ import {
 
 function ResumeInfo() {
   return (
-    <div>
+    <div style={{ background: "grey", paddingTop: "150px"}}>
       <section style={{ padding: "20px" }}>
         <h2 id="resume">RESUME</h2>
         <div style={{ margin: "10px"}}>

@@ -15,6 +15,8 @@ function Header() {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        position: "fixed",
+        width: "100%"
       }}
     >
       <header>

@@ -6,7 +6,7 @@ const PortfolioInfo = () => {
   const [currentProject, setCurrentProject] = useState(projects);
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ paddingTop: "150px", paddingLeft: "20px" }}>
       <div>
         <h2>PORTFOLIO</h2>
       </div>
