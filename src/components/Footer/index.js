@@ -19,7 +19,7 @@ function Footer() {
       }}
     >
       <div style={{ display: "flex", marginLeft: "25%" }}>
-        <div>
+        <div style={{  paddingTop: "13px"}}>
           <FontAwesomeIcon icon={faEnvelope} />
           <a
             style={{
@@ -27,7 +27,7 @@ function Footer() {
               color: "darkslategrey",
               fontWeight: "bold",
               fontSize: "20px",
-              textDecoration: "underline",
+              textDecoration: "underline"
             }}
             href="mailto:joannagrosshans2@gmail.com"
             target="_blank"

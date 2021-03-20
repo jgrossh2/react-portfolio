@@ -7,7 +7,7 @@ function Home() {
     return (
         <section>
             <About />
-            <Resume />
+            {/* <Resume /> */}
             <Portfolio />
         </section>
     )

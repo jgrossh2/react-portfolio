@@ -19,7 +19,7 @@ function NavTabs(props) {
     //   ))}
     // </ul>
     <div>
-    <ul style={{margin: "0", padding: "0"}} className="nav nav-tabs justify-content-center">
+    <ul style={{margin: "0", padding: "0"}} className="nav nav-tabs justify-content-left">
       
       <li className="nav-item" style={{ margin: "10px"}}>
         <a href="/" >Home</a>
