@@ -3,7 +3,7 @@ import image from 'react-bootstrap/Image';
 
 function AboutInfo() {
     return (
-      <section style={{paddingTop: "175px"}}>
+      <section style={{paddingTop: "175px", background: "#e6e6e6"}}>
         <div style={{ margin: "auto", display: "flex"}}>
             <div>
                 <img 

@@ -11,7 +11,8 @@ function Header() {
   return (
     <div
       style={{
-        backgroundImage: `url(${background})`,
+        // backgroundImage: `url(${background})`,
+        backgroundColor: "#334d4d",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -23,7 +24,7 @@ function Header() {
         <Nav></Nav>
         <div className="App">
         <Bounce>
-          <h2 style={{ padding: "30px" }}>JOANNA GROSSHANS, WEB DEVELOPER</h2>
+          <h2 style={{ padding: "30px", color: "white", fontSize: "48px" }}>JOANNA GROSSHANS, WEB DEVELOPER</h2>
         </Bounce>
         </div>
       </header>

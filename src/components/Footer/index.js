@@ -11,7 +11,8 @@ function Footer() {
   return (
     <footer
       style={{
-        backgroundImage: `url(${background})`,
+        // backgroundImage: `url(${background})`,
+        backgroundColor: "#334d4d",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -19,12 +20,12 @@ function Footer() {
       }}
     >
       <div style={{ display: "flex", marginLeft: "25%" }}>
-        <div style={{  paddingTop: "13px"}}>
+        <div style={{  paddingTop: "13px", color: "white"}}>
           <FontAwesomeIcon icon={faEnvelope} />
           <a
             style={{
               padding: "15px",
-              color: "darkslategrey",
+              color: "white",
               fontWeight: "bold",
               fontSize: "20px",
               textDecoration: "underline"
@@ -39,7 +40,7 @@ function Footer() {
         <div
           style={{
             padding: "15px",
-            color: "darkslategrey",
+            color: "white",
             fontWeight: "bold",
             fontSize: "20px",
           }}
@@ -49,7 +50,7 @@ function Footer() {
         </div>
         <div style={{ margin: "15px" }}>
           <a
-            style={{ color: "darkslategrey" }}
+            style={{ color: "white" }}
             href="https://www.linkedin.com/in/joanna-grosshans-6340603b/"
             target="_blank"
             rel="noreferrer"
@@ -60,7 +61,7 @@ function Footer() {
 
         <div style={{ padding: "15px" }}>
           <a
-            style={{ color: "darkslategrey" }}
+            style={{ color: "white" }}
             href="https://github.com/jgrossh2"
             target="_blank"
             rel="noreferrer"
@@ -70,7 +71,7 @@ function Footer() {
         </div>
         <div style={{ padding: "15px" }}>
           <a
-            style={{ color: "darkslategrey" }}
+            style={{ color: "white" }}
             href="https://stackoverflow.com/users/14150109/jgrossh2?tab=profile"
             target="_blank"
             rel="noreferrer"
