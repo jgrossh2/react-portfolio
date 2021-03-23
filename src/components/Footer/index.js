@@ -19,7 +19,7 @@ function Footer() {
         padding: "20px",
       }}
     >
-      <div style={{ display: "flex", marginLeft: "25%" }}>
+      <div className= "footer" style={{ display: "flex", marginLeft: "25%" }}>
         <div style={{  padding: "13px 20px 0px 0px", color: "white"}}>
           <FontAwesomeIcon icon={faEnvelope} />
           <a

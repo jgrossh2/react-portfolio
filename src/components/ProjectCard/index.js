@@ -6,8 +6,8 @@ import Portfolio from "../PortfolioInfo";
 function ProjectCard(props) {
   return (
     <div>
-      <div style={{ margin: "20px", width: "500px" }}>
-        <img style={{ width: "500px"}} src={props.image} alt={props.name} />
+      <div className="project" style={{ margin: "20px", width: "500px" }}>
+        <img className="project" style={{ width: "500px"}} src={props.image} alt={props.name} />
         <div style={{ padding: "10px", border: "solid 1px grey", backgroundColor: "white"}}>
           <h6 style={{ fontWeight: "bold"}}>{props.name}</h6>
           <h6>{props.description}</h6>

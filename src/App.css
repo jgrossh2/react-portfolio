@@ -87,3 +87,37 @@ img {
   margin: 15px;
   background-color: white
 }
+
+@media screen and (max-width: 575px) {
+  .name {
+    font-size: 22px !important;
+  }
+  .footer {
+    display: inline-block !important;
+  }
+  .App {
+    text-align: left;
+  }
+  .img {
+    max-width: 300px;
+  }
+  .project {
+    width: 300px !important;
+    margin-left: 0px !important;
+  }
+  .resume {
+    display: inline-block !important;
+  }
+  .img-bio {
+    height: 300px;
+  }
+  .about {
+    padding-top: 0px !important;
+    width: 300px !important;
+    
+  }
+  .info {
+    display: inline-block !important;
+    padding-left: 30px !important;
+  }
+}

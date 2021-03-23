@@ -15,7 +15,7 @@ function ResumeInfo() {
       <section style={{ padding: "20px" }}>
         {/* <h2 id="resume">RESUME</h2> */}
        
-        <div style={{display: "flex", padding: "50px, 0, 0, 0", margin: "10px" }}>
+        <div className="resume" style={{display: "flex", padding: "50px, 0, 0, 0", margin: "10px" }}>
           <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Front-end technologies:</span>
           <ul className= "tech"
           // style={{ border: "solid 1px"}}
@@ -45,7 +45,7 @@ function ResumeInfo() {
           </ul>
           <ul className= "tech">JSON Web Token</ul>
         </div>
-        <div style={{ display: "flex" }}>
+        <div className="resume" style={{ display: "flex" }}>
           <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Back-end technologies:</span>
           <ul className= "tech">
             {/* <a style={{ color: "darkslategrey" }}>
@@ -72,7 +72,7 @@ function ResumeInfo() {
           <ul className= "tech">GraphQL</ul>
           <ul className= "tech">Apollo</ul>
         </div>
-        <div style={{ display: "flex" }}>
+        <div className= "resume" style={{ display: "flex" }}>
           <p style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Additional Tools:</p>
           <ul className= "tech">GitHub</ul>
           <ul className= "tech">Visual Studio Code</ul>
