@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../assets/Background/mke2.jpg";
+import background from "../../assets/Background/mke.jpg";
 
 function HeroInfo() {
     return (
