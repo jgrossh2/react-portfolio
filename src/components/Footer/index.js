@@ -20,7 +20,7 @@ function Footer() {
       }}
     >
       <div style={{ display: "flex", marginLeft: "25%" }}>
-        <div style={{  paddingTop: "13px", color: "white"}}>
+        <div style={{  padding: "13px 20px 0px 0px", color: "white"}}>
           <FontAwesomeIcon icon={faEnvelope} />
           <a
             style={{
@@ -48,7 +48,7 @@ function Footer() {
           <FontAwesomeIcon icon={faPhone} />
           <label for="phone">847.347.7356</label>
         </div>
-        <div style={{ margin: "15px" }}>
+        <div style={{ margin: "15px 20px" }}>
           <a
             style={{ color: "white" }}
             href="https://www.linkedin.com/in/joanna-grosshans-6340603b/"
@@ -59,7 +59,7 @@ function Footer() {
           </a>
         </div>
 
-        <div style={{ padding: "15px" }}>
+        <div style={{ padding: "15px 20px" }}>
           <a
             style={{ color: "white" }}
             href="https://github.com/jgrossh2"
@@ -69,7 +69,7 @@ function Footer() {
             <MarkGithubIcon size="medium" aria-label="GitHub" />
           </a>
         </div>
-        <div style={{ padding: "15px" }}>
+        <div style={{ padding: "15px 20px" }}>
           <a
             style={{ color: "white" }}
             href="https://stackoverflow.com/users/14150109/jgrossh2?tab=profile"
@@ -78,6 +78,9 @@ function Footer() {
           >
             <FontAwesomeIcon icon={faStackOverflow} size="2x" />
           </a>
+        </div>
+        <div style={{ padding: "15px 20px", color: "white", fontSize: "20px"}}>
+            <p>© Copyright 2021</p>
         </div>
       </div>
     </footer>

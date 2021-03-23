@@ -13,20 +13,10 @@ function ResumeInfo() {
   return (
     <div style={{ background: "#e6e6e6", paddingTop: "150px"}}>
       <section style={{ padding: "20px" }}>
-        <h2 id="resume">RESUME</h2>
-        <div style={{ margin: "10px"}}>
-          <a
-            href={resume}
-            target="_blank"
-            rel="noreferrer"
-            download
-            style={{ color: "black", textDecoration: "underline" }}
-          >
-            Download Joanna Grosshans' Resume
-          </a>
-        </div>
+        {/* <h2 id="resume">RESUME</h2> */}
+       
         <div style={{display: "flex", padding: "50px, 0, 0, 0", margin: "10px" }}>
-          <span style={{ fontWeight: "bold", fontSize: "16px" }}>Front-end technologies:</span>
+          <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Front-end technologies:</span>
           <ul className= "tech"
           // style={{ border: "solid 1px"}}
           >
@@ -56,7 +46,7 @@ function ResumeInfo() {
           <ul className= "tech">JSON Web Token</ul>
         </div>
         <div style={{ display: "flex" }}>
-          <span style={{ fontWeight: "bold", fontSize: "16px"}}> Back-end technologies:</span>
+          <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Back-end technologies:</span>
           <ul className= "tech">
             {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faNodeJs} size="4x" />
@@ -83,19 +73,22 @@ function ResumeInfo() {
           <ul className= "tech">Apollo</ul>
         </div>
         <div style={{ display: "flex" }}>
-          <p style={{ fontWeight: "bold", fontSize: "16px" }}>Tools:</p>
+          <p style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Additional Tools:</p>
           <ul className= "tech">GitHub</ul>
           <ul className= "tech">Visual Studio Code</ul>
           <ul className= "tech">Heroku</ul>
+          <ul className= "tech">Slack</ul>
         </div>
-        <div style={{ display: "flex" }}>
-        <p style={{ fontWeight: "bold", fontSize: "16px" }}>Concepts</p>
-        <ul className= "tech">OOP</ul>
-        <ul className= "tech">DOM</ul>
-        <ul className= "tech">MERN</ul>
-        <ul className= "tech">RESTful APIs</ul>
-        <ul className= "tech">PWA</ul>
-        <ul className= "tech">Jest-TDD</ul>
+        <div style={{ margin: "10px"}}>
+          <a
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+            download
+            style={{ color: "black", textDecoration: "underline", fontSize: "20px"}}
+          >
+            Download Joanna Grosshans' Resume
+          </a>
         </div>
       </section>
     </div>
