@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import About from '../About';
-import Contact from '../Contact';
-import Resume from '../Resume';
-import Portfolio from '../Portfolio';
-import NavTabs from '../NavTabs'
+import Home from '../../pages/Home';
+import ContactInfo from '../ContactInfo';
+import ResumeInfo from '../ResumeInfo';
+import PortfolioInfo from '../PortfolioInfo';
+import NavTabs from '../NavTabs';
+import About from '../AboutInfo';
 
 function Nav() {
 
@@ -14,16 +15,18 @@ function Nav() {
 
     const renderPage = () => {
         switch(currentPage) {
-            case "About" :
-                return <About />;
-            case "Contact" :
-                return <Contact />;
+            case "Home" :
+                return <Home />;
+            // case "About" :
+            //     return <About />;
+            // case "Contact" :
+            //     return <ContactInfo />;
             case "Resume" :
-                return <Resume />;
+                return <ResumeInfo />;
             case "Portfolio" :
-                return <Portfolio />;
-            default: 
-                return
+                return <PortfolioInfo />;
+            // default: 
+            //     return <Home />;
         }
     }
     return (

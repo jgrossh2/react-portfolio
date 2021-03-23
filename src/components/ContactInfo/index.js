@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 // import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+function ContactInfo() {
 
     // const [formState, setFormState] = useState({ name:'', email:'', message:'' });
     // const [errorMessage, setErrorMessage] = useState(' ');
@@ -38,13 +38,12 @@ function ContactForm() {
    
 
     return (
-        <div>
-        {/* <Form style={{ padding: "20px", margin: "auto"}}> */}
-            <h1 data-testid='h1tag' style={{ paddingLeft: "20px"}}>CONTACT ME</h1>
+        <div style={{ border: "solid darkgrey 2px", margin: " 50px 50px 50px 175px", width: "50%"}}>
+            <h1 data-testid='h1tag' style={{ paddingLeft: "40%"}}>CONTACT ME</h1>
                 <div>
-                <a style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px", textDecoration: "underline", paddingLeft: "20px"}}href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
+                <a style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px", textDecoration: "underline", paddingLeft: "40%"}}href="mailto:joannagrosshans2@gmail.com" target="_blank" rel='noreferrer'>@Joanna Grosshans</a>
                 </div>
-                <div style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px", paddingLeft: "20px" }}>
+                <div style={{ color: "darkslategrey", fontWeight: "bold", fontSize: "20px", paddingLeft: "40%" }}>
                 <label for="phone">
                     PHONE: #847.347.7356</label>
                 </div>
@@ -74,4 +73,4 @@ function ContactForm() {
         );
 }
 
-export default ContactForm;
+export default ContactInfo;
