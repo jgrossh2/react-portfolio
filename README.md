@@ -25,4 +25,4 @@ Please contact <joannagrosshans2@gmail.com> for additional Information.
 
 # Technologies used
  * JS <br>
- * React 
+ * React    
