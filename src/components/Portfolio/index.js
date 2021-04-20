@@ -7,25 +7,26 @@ import ImageModal from "../ImageModal";
 
 const Portfolio = ()  => {
    
-    const [currentProject, setCurrentProject] =useState(projects);
-    const toggleModal = (image, i) => {
-        setCurrentPhoto({ ...image, index: 1});
-        setIsModalOpen(!isModalOpen);
-    }
+    // const [currentProject, setCurrentProject] =useState(projects);
+    // const toggleModal = (image, i) => {
+    //     setCurrentPhoto({ ...image, index: 1});
+    //     setIsModalOpen(!isModalOpen);
+    // }
     return(
         <div style={{padding: "20px"}}>
             <div>
                 <h2>PORTFOLIO</h2>
             </div>
-            
-            <div>
+        </div>
+    )
+            {/* <div> */}
             {/* className="flex-row" */}
-                <div style={{ }}>
+                {/* <div style={{ }}>
                     {isModalOpen && (
                         <ImageModal currentPhoto={currentPhoto} onClose={toggleModal} />
-                    )}
+                    )} */}
                     {/* <Carousel showArrows={true}  style={{margin: "auto", width: "30%", height: "20%" }}> */}
-                   {projects.map((projects, i) => (
+                   {/* {projects.map((projects, i) => (
                        <ProjectCard
                         image={require(`../../assets/Portfolio/${i}.png`).default}
                         alt={projects.name}
@@ -39,14 +40,13 @@ const Portfolio = ()  => {
                         Github={projects.Github}
                         deployed={projects.deployed}
                         /> 
-                   ))}
+                   ))} */}
                    {/* </Carousel> */}
-                </div>
+                {/* </div> */}
                 
-            </div>
+            {/* </div> */}
          
-        </div>
-    );
+        {/* </div> */}
 };
 
-export default Portfolio;
+// export default Portfolio;

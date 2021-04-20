@@ -3,10 +3,16 @@ import projects from "../../projects.json";
 import ProjectCard from "../ProjectCard";
 
 const PortfolioInfo = () => {
-  const [currentProject, setCurrentProject] = useState(projects);
+  // const [currentProject, setCurrentProject] = useState(projects);
 
   return (
-    <div style={{ paddingTop: "175px", paddingLeft: "30px", background: "#e6e6e6" }}>
+    <div
+      style={{
+        paddingTop: "175px",
+        paddingLeft: "30px",
+        background: "#e6e6e6",
+      }}
+    >
       <div style={{ fontSize: "24px" }}>
         <p>View my work</p>
       </div>
@@ -25,19 +31,7 @@ const PortfolioInfo = () => {
           className="project"
           style={{ flexWrap: "wrap", display: "flex", marginLeft: "200px" }}
         >
-          {projects.map((projects, i) => (
-            <ProjectCard
-              image={require(`../../assets/Portfolio/${i}.png`).default}
-              alt={projects.name}
-              key={projects.name}
-              name={projects.name}
-              description={projects.description}
-              part={projects.part}
-              group={projects.group}
-              Github={projects.Github}
-              deployed={projects.deployed}
-            />
-          ))}
+          <ProjectCard />
         </div>
       </div>
     </div>
@@ -135,7 +129,7 @@ export default PortfolioInfo;
 //                Github={projects.Github}
 //               deployed={projects.deployed}
 //             />
-//            ))} 
+//            ))}
 //           </animated.div>
 //         </div>
 //       </div>
