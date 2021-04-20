@@ -4,7 +4,7 @@ import image from 'react-bootstrap/Image';
 function AboutInfo() {
     return (
       <section style={{paddingTop: "175px", background: "#e6e6e6"}}>
-        <div className="info" style={{ margin: "auto", display: "flex"}}>
+        <div className="info" style={{ margin: "auto", display: "flex", width: "100%"}}>
             <div>
                 <img 
                 className="img-bio"
