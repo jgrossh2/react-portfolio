@@ -10,13 +10,13 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
   return (
     <footer
+    className="footerSection"
       style={{
-        // backgroundImage: `url(${background})`,
         backgroundColor: "#334d4d",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        padding: "20px",
+        padding: "20px 300px 20px 20px",
       }}
     >
       <div className= "footer" style={{ display: "flex", marginLeft: "25%" }}>
@@ -80,7 +80,7 @@ function Footer() {
           </a>
         </div>
         <div style={{ padding: "15px 20px", color: "white", fontSize: "20px"}}>
-            <p>© Copyright 2021</p>
+            <p>© 2021</p>
         </div>
       </div>
     </footer>

@@ -3,7 +3,6 @@ import projects from "../../projects.json";
 import ProjectCard from "../ProjectCard";
 
 const PortfolioInfo = () => {
-  // const [currentProject, setCurrentProject] = useState(projects);
 
   return (
     <div
@@ -13,7 +12,7 @@ const PortfolioInfo = () => {
         background: "#e6e6e6",
       }}
     >
-      <div style={{ fontSize: "24px" }}>
+      <div style={{ fontSize: "24px", textAlign: "center" }}>
         <p>View my work</p>
       </div>
 

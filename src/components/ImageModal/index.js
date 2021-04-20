@@ -16,7 +16,7 @@ const ImageModal = ({ onClose, currentPhoto }) => {
         <h6>{part}</h6>
         <h6>
         <a href={Github} target="_blank" rel="noreferrer">
-          <span style={{ color: "black" }}>{Github}</span>
+          <span style={{ color: "black", overflowWrap: "anywhere" }}>{Github}</span>
         </a>
         </h6>
         <h6>

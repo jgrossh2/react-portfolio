@@ -15,8 +15,8 @@ function ResumeInfo() {
       <section style={{ padding: "20px" }}>
         {/* <h2 id="resume">RESUME</h2> */}
        
-        <div className="resume" style={{display: "flex", padding: "50px, 0, 0, 0", margin: "10px" }}>
-          <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Front-end technologies:</span>
+        <div className="resume" style={{display: "flex", padding: "50px, 0, 0, 0", margin: "10px", flexWrap: "wrap" }}>
+          <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px" }}>Front-end technologies:</span>
           <ul className= "tech"
           // style={{ border: "solid 1px"}}
           >
@@ -45,8 +45,8 @@ function ResumeInfo() {
           </ul>
           <ul className= "tech">JSON Web Token</ul>
         </div>
-        <div className="resume" style={{ display: "flex" }}>
-          <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px"}}>Back-end technologies:</span>
+        <div className="resume" style={{ display: "flex", flexWrap: "wrap" }}>
+          <span style={{ fontWeight: "bold", fontSize: "20px", margin: "30px", width: "100%" }}>Back-end technologies:</span>
           <ul className= "tech">
             {/* <a style={{ color: "darkslategrey" }}>
             <FontAwesomeIcon icon={faNodeJs} size="4x" />
