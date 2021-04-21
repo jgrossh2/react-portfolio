@@ -8,9 +8,9 @@ function Home() {
     return (
         <section>
             <Hero />
-            {/* <About /> */}
+            <About />
             {/* <Resume /> */}
-            {/* <Portfolio /> */}
+            <Portfolio />
         </section>
     )
 };

@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
 
 const ImageModal = ({ onClose, currentPhoto }) => {
   const { name, description, part, Github, deployed, index } = currentPhoto;
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1500
+    });
+  }, []);
+
   return (
+    <div data-aos="zoom-in">
     <div onClick={onClose} style={{ backgroundColor: "lightgrey", maxWidth: "75%", padding: "25px"}}>
       <div>
         <img
@@ -28,6 +36,7 @@ const ImageModal = ({ onClose, currentPhoto }) => {
       <button onClick={onClose} type="button" style={{ fontSize: "15px"}}>
         Close
       </button>
+    </div>
     </div>
   );
 };

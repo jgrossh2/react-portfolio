@@ -3,7 +3,6 @@ import { MarkGithubIcon } from "@primer/octicons-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faStackOverflow } from "@fortawesome/free-brands-svg-icons";
-import background from "../../assets/Background/white.png";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 

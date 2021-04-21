@@ -1,10 +1,16 @@
-import React from 'react';
-import image from 'react-bootstrap/Image';
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 function AboutInfo() {
+  useEffect(() => {
+    AOS.init({
+      duration: 500
+    });
+  }, []);
+
     return (
       <section style={{paddingTop: "175px", background: "#e6e6e6"}}>
         <div className="info" style={{ margin: "auto", display: "flex", width: "100%"}}>
+          <div data-aos="fade-up">
             <div>
                 <img 
                 className="img-bio"
@@ -13,7 +19,9 @@ function AboutInfo() {
                 key="Joanna Grosshans"
                 />
             </div>
+            </div>
             <div 
+            data-aos="fade-down"
             className="aboutInfo"
             style={{ padding: "35px"}}>
             <div 

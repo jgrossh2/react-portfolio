@@ -5,7 +5,8 @@ import AOS from 'aos';
 function ProjectCard() {
   useEffect(() => {
     AOS.init({
-      duration: 3000
+      duration: 2500,
+      once: true
     });
   }, []);
 

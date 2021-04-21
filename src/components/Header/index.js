@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../Nav";
-import background from "../../assets/Background/white.png";
 import styled, { keyframes } from "styled-components";
 import { bounce } from "react-animations";
 
@@ -11,7 +10,6 @@ function Header() {
   return (
     <div
       style={{
-        // backgroundImage: `url(${background})`,
         backgroundColor: "#334d4d",
         backgroundPosition: "center",
         backgroundSize: "cover",
