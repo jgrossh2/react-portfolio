@@ -1,7 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ImageModal from "../ImageModal";
+import AOS from 'aos';
 
 function ProjectCard() {
+  useEffect(() => {
+    AOS.init({
+      duration: 3000
+    });
+  }, []);
+
   const [projects] = useState([
     {
       name: "Woodland Consulting LLC",
@@ -73,8 +80,9 @@ function ProjectCard() {
       {isModalOpen && (
         <ImageModal onClose={toggleModal} currentPhoto={currentPhoto} />
       )}
-      <div className="project" 
-      >
+      <div data-aos= "zoom-in">
+      <div className="project">
+        
         {projects.map((image, i) => (
           <img
             className="project"
@@ -85,6 +93,7 @@ function ProjectCard() {
             onClick={() => toggleModal(image, i)}
           />
         ))}
+        </div>
       </div>
     </div>
   );
