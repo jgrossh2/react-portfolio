@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-import tally from "../../assets/Portfolio/0.png";
-import projects from "../../../src/projects.json";
-import Portfolio from "../PortfolioInfo";
 import ImageModal from "../ImageModal";
 
 function ProjectCard() {
   const [projects] = useState([
     {
       name: "Woodland Consulting LLC",
-      // image: "../../assets/Portfolio/0.png",
       description:
         "Professional portfolio and website for Woodland Consulting LLC.",
       part:
@@ -19,7 +15,6 @@ function ProjectCard() {
     },
     {
       name: "Tally Max Word Generator",
-      // image: "../../assets/Portfolio/0.png",
       description:
         "This is an application created especially for those who like to play word games.",
       part:
@@ -30,7 +25,6 @@ function ProjectCard() {
     },
     {
       name: "CMS-Blog",
-      // image: "require(`../assets/Portfolio/2.png`)",
       description:
         "Tech blog was created as an online environment for users to write and share posts about the tech world.",
       part: "Users can create an account to create, edit and delete posts.",
@@ -40,7 +34,6 @@ function ProjectCard() {
     },
     {
       name: "Work Scheduler",
-      // image: "../assets/Portfolio/3.png",
       description: "Plan your day easily with this weekday scheduler.",
       part:
         "Able to add events at specific times, with color shading of hours to show past, present, and future",
@@ -50,7 +43,6 @@ function ProjectCard() {
     },
     {
       name: "Note taker",
-      // image: "../assets/Portfolio/3.png",
       description: "Keep track of all your notes using this note tracker.",
       part: "With this note taker, the user can create, edit and delete notes.",
       group: "Sole contributor",
@@ -59,7 +51,6 @@ function ProjectCard() {
     },
     {
       name: "Weather dashboard",
-      // image: "../assets/Portfolio/3.png",
       description:
         "Search for a city and get the details for the weather forecast.",
       part:
