@@ -15,15 +15,20 @@ function Header() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         position: "fixed",
-        width: "100%"
+        width: "100%",
       }}
     >
       <header>
         <Nav></Nav>
         <div className="App">
-        <Bounce>
-          <h2 className= "name" style={{ padding: "30px", color: "white", fontSize: "48px" }}>JOANNA GROSSHANS, WEB DEVELOPER</h2>
-        </Bounce>
+          <Bounce>
+            <h2
+              className="name"
+              style={{ padding: "30px", color: "white", fontSize: "48px" }}
+            >
+              JOANNA GROSSHANS, WEB DEVELOPER
+            </h2>
+          </Bounce>
         </div>
       </header>
     </div>

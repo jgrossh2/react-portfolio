@@ -2,7 +2,6 @@ import React from "react";
 import ProjectCard from "../ProjectCard";
 
 const PortfolioInfo = () => {
-
   return (
     <div
       style={{

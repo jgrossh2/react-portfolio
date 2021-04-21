@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import ImageModal from "../ImageModal";
-import AOS from 'aos';
+import AOS from "aos";
 
 function ProjectCard() {
   useEffect(() => {
     AOS.init({
-      duration: 2500,
-      once: true
+      duration: 3000,
+      once: true,
     });
   }, []);
 
@@ -81,19 +81,18 @@ function ProjectCard() {
       {isModalOpen && (
         <ImageModal onClose={toggleModal} currentPhoto={currentPhoto} />
       )}
-      <div data-aos= "zoom-in">
-      <div className="project">
-        
-        {projects.map((image, i) => (
-          <img
-            className="project"
-            style={{ width: "500px" }}
-            src={require(`../../assets/Portfolio/${i}.png`).default}
-            alt={projects.name}
-            key={projects.name}
-            onClick={() => toggleModal(image, i)}
-          />
-        ))}
+      <div data-aos="zoom-in">
+        <div className="project">
+          {projects.map((image, i) => (
+            <img
+              className="project"
+              style={{ width: "500px" }}
+              src={require(`../../assets/Portfolio/${i}.png`).default}
+              alt={projects.name}
+              key={projects.name}
+              onClick={() => toggleModal(image, i)}
+            />
+          ))}
         </div>
       </div>
     </div>

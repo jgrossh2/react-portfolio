@@ -9,7 +9,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
   return (
     <footer
-    className="footerSection"
+      className="footerSection"
       style={{
         backgroundColor: "#334d4d",
         backgroundPosition: "center",
@@ -18,8 +18,8 @@ function Footer() {
         padding: "20px 300px 20px 20px",
       }}
     >
-      <div className= "footer" style={{ display: "flex", marginLeft: "25%" }}>
-        <div style={{  padding: "13px 20px 0px 0px", color: "white"}}>
+      <div className="footer" style={{ display: "flex", marginLeft: "25%" }}>
+        <div style={{ padding: "13px 20px 0px 0px", color: "white" }}>
           <FontAwesomeIcon icon={faEnvelope} />
           <a
             style={{
@@ -27,7 +27,7 @@ function Footer() {
               color: "white",
               fontWeight: "bold",
               fontSize: "20px",
-              textDecoration: "underline"
+              textDecoration: "underline",
             }}
             href="mailto:joannagrosshans2@gmail.com"
             target="_blank"
@@ -78,8 +78,8 @@ function Footer() {
             <FontAwesomeIcon icon={faStackOverflow} size="2x" />
           </a>
         </div>
-        <div style={{ padding: "15px 20px", color: "white", fontSize: "20px"}}>
-            <p>© 2021</p>
+        <div style={{ padding: "15px 20px", color: "white", fontSize: "20px" }}>
+          <p>© 2021</p>
         </div>
       </div>
     </footer>
