@@ -22,7 +22,7 @@ const ImageModal = ({ onClose, currentPhoto }) => {
       >
         <div>
           <img
-            style={{ maxWidth: "80%", margin: "0 auto" }}
+            style={{ maxWidth: "95%", margin: "0 auto" }}
             src={require(`../../assets/Portfolio/${index}.png`).default}
             alt="image"
           />

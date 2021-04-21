@@ -4,6 +4,7 @@ import ProjectCard from "../ProjectCard";
 const PortfolioInfo = () => {
   return (
     <div
+    className="portfolio"
       style={{
         paddingTop: "175px",
         paddingLeft: "30px",
