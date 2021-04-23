@@ -12,6 +12,7 @@ function HeroInfo() {
       }}
     >
       <p
+      className="heroText"
         style={{
           fontSize: "30px",
           paddingTop: "390px",
@@ -19,7 +20,6 @@ function HeroInfo() {
           fontWeight: "bolder",
         }}
       >
-        {" "}
         Welcome! Take a look around.
       </p>
     </div>

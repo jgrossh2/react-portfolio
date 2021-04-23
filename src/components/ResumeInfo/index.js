@@ -12,7 +12,7 @@ function ResumeInfo() {
             padding: "50px, 0, 0, 0",
             margin: "10px",
             flexWrap: "wrap",
-          }}
+           }}
         >
           <span
             style={{

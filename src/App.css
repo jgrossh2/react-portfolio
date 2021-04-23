@@ -87,6 +87,9 @@ img {
 
 }
 @media screen and (max-width: 575px) {
+  .heroText {
+    font-size: 28px !important;
+  }
   .name {
     font-size: 22px !important;
   }
